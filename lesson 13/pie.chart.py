@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('avgIQpercountry.csv')
+df = pd.read_csv('../lesson 12/kaggle_data/avgIQpercountry.csv')
 
 nobel_prize_by_continent = df.groupby('Continent')['Nobel prices'].sum()
 

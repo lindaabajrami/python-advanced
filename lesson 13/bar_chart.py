@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('avgIQpercountry.csv')
+df = pd.read_csv('../lesson 12/kaggle_data/avgIQpercountry.csv')
 
 filtered_df = df[df["Average IQ"] >= 100]
 
