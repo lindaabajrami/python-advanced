@@ -55,4 +55,3 @@ st.subheader('filter data by Genre')
 genre_filter = st.selectbox('Select Genre', books_df['Genre'].unique())
 filter_df = books_df[books_df['Genre'] == genre_filter]
 st.write(filter_df)
-
