@@ -1,8 +1,5 @@
 from typing import Optional, Any, List, Union
 
-from PIL.ImImagePlugin import number
-
-
 def get_name(name: Optional[str] = None) -> str:
     if name:
         return  name
